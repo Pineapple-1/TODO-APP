@@ -48,12 +48,14 @@ footer
 border-bottom: 1px solid #cecece;
 }
 button {
-  display:inline-block;
+  display:flex;
   padding:0.2em 1.45em;
+
   margin:0.1em;
   border:0.15em solid #CCCCCC;
-  box-sizing: border-box;
-  text-decoration:none;
+  border-left: 0px;
+  
+  
   font-family:'Segoe UI','Roboto',sans-serif;
   font-weight:400;
   color:#000000;
@@ -69,21 +71,29 @@ button:active{
 }
 @media all and (max-width:30em){
 button{
-display:block;
-margin:0.2em auto;
+display:flex;
+
 }
 }
 .tb {
-  width: 15%;
+ 
   padding:0.35em 1.45em;
+  
   margin:0.1em;
 	border: 1px solid #cccccc;
 	border-left: 4px solid #cccccc ;
 }
 .add{
-  margin: auto;
+  
+  display: flex;
+  width:100%;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+    margin: auto;
+}
+.clear{
   display: flex;
   justify-content: center;
-  vertical-align: center;
-  align-items: center;
+  margin:0.2em auto;
 }

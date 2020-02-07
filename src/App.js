@@ -78,7 +78,9 @@ return(
       <button onClick={this.addNew} type="submit">ADD NEW ITEM</button>
      
        </div>
-      <div className="add"><button onClick={this.clear}>CLEAR ALL</button></div>
+      <div className="clear">
+        <button onClick={this.clear}>CLEAR ALL</button>
+        </div>
     </div>
 )}
 }
