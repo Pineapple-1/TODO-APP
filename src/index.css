@@ -78,7 +78,7 @@ display:flex;
 .tb {
  
   padding:0.35em 1.45em;
-  
+  width: 15%;
   margin:0.1em;
 	border: 1px solid #cccccc;
 	border-left: 4px solid #cccccc ;
@@ -95,5 +95,5 @@ display:flex;
 .clear{
   display: flex;
   justify-content: center;
-  margin:0.2em auto;
+  margin:auto;
 }
